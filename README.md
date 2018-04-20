@@ -1,6 +1,8 @@
 ccdrAlgorithm
 =============
 
+> fork to increase the  `_MAX_CCS_ARRAY_SIZE_` constant allowing to process up to 100000 variables
+
 [![Project Status: Active The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Travis-CI Build Status](https://travis-ci.org/itsrainingdata/ccdrAlgorithm.svg?branch=master)](https://travis-ci.org/itsrainingdata/ccdrAlgorithm) [![](http://www.r-pkg.org/badges/version/ccdrAlgorithm)](http://www.r-pkg.org/pkg/ccdrAlgorithm) [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/ccdrAlgorithm)](http://www.r-pkg.org/pkg/ccdrAlgorithm)
 
 `ccdrAlgorithm` implements the CCDr structure learning algorithm described in \[[1-2](#references)\]. This algorithm estimates the structure of a Bayesian network from mixed observational and experimental data using penalized maximum likelihood based on L1 or concave (MCP) regularization.
