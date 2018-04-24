@@ -137,7 +137,7 @@ ccdr.run <- function(data,
 } # END CCDR.RUN
 
 ### Maximum number of nodes allowed
-MAX_CCS_ARRAY_SIZE <- function() 10000
+MAX_CCS_ARRAY_SIZE <- function() 100000
 
 # ccdr_call
 #
